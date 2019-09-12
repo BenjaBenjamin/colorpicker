@@ -4,31 +4,80 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Color-Picker</title>
+    <title>Color Picker</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <body>
-      <h1>Pick a color!</h1>
+    <main>
+      <h1>Color picker</h1>
       <div class="selector">
         <div class="inner">
-          <label for="color-picker">Choose color:</label>
-          <input
+          <label class="knap" id="color-changer"> Choose  theme:
+            <select name="choosescheme" id="choosescheme">
+              <option value="analogous">Analogous</option>
+              <option value="monochromatic">Monochromatic</option>
+              <option value="triad">Triad</option>
+              <option value="complementary">Complementary</option>
+              <option value="compound">Compound</option>
+              <option value="shades">Shades</option>
+            </select>
+          </label>
+<div class="knap">
+             <label for="color-picker">Choose color:</label>
+
+
+          <input class="knap2"
             type="color"
             name="color-picker"
             id="color-picker"
-            value="#94E3FF"
+            value="#da7665"
           />
-          <div class="box"></div>
-          <p class="hex-output">HEX: #94E3FF</p>
-          <p class="rgb-output">RGB: 148, 227, 255</p>
-          <p class="hsl-output">HSL: 195.7, 100%, 79%</p>
+    </div>
+          <div class="wrapper">
+            <div class="container1">
+              <div class="box"></div>
+              <div class="txt">
+                <p class="hex-output">HEX: #da7665</p>
+                <p class="rgb-output">RGB: 148, 227, 255</p>
+                <p class="hsl-output">HSL: 195.7, 100%, 79%</p>
+              </div>
+            </div>
+            <div class="container2">
+              <div class="box"></div>
+              <div class="txt">
+                <p class="hex-output">HEX: #da7665</p>
+                <p class="rgb-output">RGB: 148, 227, 255</p>
+                <p class="hsl-output">HSL: 195.7, 100%, 79%</p>
+              </div>
+            </div>
+            <div class="container3">
+              <div class="box"></div>
+              <div class="txt">
+                <p class="hex-output">HEX: #da7665</p>
+                <p class="rgb-output">RGB: 148, 227, 255</p>
+                <p class="hsl-output">HSL: 195.7, 100%, 79%</p>
+              </div>
+            </div>
+            <div class="container4">
+              <div class="box"></div>
+              <div class="txt">
+                <p class="hex-output">HEX: #da7665</p>
+                <p class="rgb-output">RGB: 148, 227, 255</p>
+                <p class="hsl-output">HSL: 195.7, 100%, 79%</p>
+              </div>
+            </div>
+            <div class="container5">
+              <div class="box"></div>
+              <div class="txt">
+                <p class="hex-output">HEX: #da7665</p>
+                <p class="rgb-output">RGB: 148, 227, 255</p>
+                <p class="hsl-output">HSL: 195.7, 100%, 79%</p>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
-
-      <script src="script.js"></script>
-    </body>
-
+    </main>
     <script src="script.js"></script>
   </body>
 </html>
